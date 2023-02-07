@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Фінансисту</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/64ed6564b5.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/css/financier.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<nav class="navigation">
+				<a href="/index.html" class="logo"><i class="fa-solid fa-user"></i> IVAN KYRLAN</a>
+				<div class="myinfo" id="myinfo">
+					<img src="/MyPhoto.jpg" width="250px" height="250px" style="border-radius: 30px;">
+					<h2>Кирлан Іван</h2>
+					<p>Студент 2 курсу<br>Системний аналіз<br>207 група</p>
+				</div>
+				<ul class="nav-list">
+					<li><a href="/pages/student.html"><i class="fa-solid fa-graduation-cap"></i> Школяреві</a>
+					</li>
+					<li><a href="/pages/financier.html"><i class="fa-solid fa-money-check-dollar"></i> Фінансисту</a>
+					</li>
+					<li><a href="/pages/editor.html"><i class="fa-solid fa-file-lines"></i> Редактору</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="task-financier">
+		<div class="container">
+			<h2>Лічильник повторів даних</h2>
+			<h3>Уведіть набір чисел або символів</h3>
+			<p style="color: rgba(255, 0, 0, 0.7);">Кожне число (символ) розділяйте пробілом!</p>
+			<textarea class="user-input" type="text" id="input"></textarea>
+			<button class="btn" onclick="alert(repeatCount(document.getElementById('input').value))">Перевірити</button>
+		</div>
+	</section>
+
+	<script src="/js/financier.js"></script>
+</body>
+
+</html>

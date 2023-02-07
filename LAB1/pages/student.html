@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Школяреві</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/64ed6564b5.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/css/student.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<nav class="navigation">
+				<a href="/index.html" class="logo"><i class="fa-solid fa-user"></i> IVAN KYRLAN</a>
+				<div class="myinfo" id="myinfo">
+					<img src="/MyPhoto.jpg" width="250px" height="250px" style="border-radius: 30px;">
+					<h2>Кирлан Іван</h2>
+					<p>Студент 2 курсу<br>Системний аналіз<br>207 група</p>
+				</div>
+				<ul class="nav-list">
+					<li><a href="/pages/student.html"><i class="fa-solid fa-graduation-cap"></i> Школяреві</a>
+					</li>
+					<li><a href="/pages/financier.html"><i class="fa-solid fa-money-check-dollar"></i> Фінансисту</a>
+					</li>
+					<li><a href="/pages/editor.html"><i class="fa-solid fa-file-lines"></i> Редактору</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="task-student">
+		<div class="container">
+			<h2>Сума і добуток двох чисел</h2>
+			<h3>Уведіть два числа</h3>
+			<form id="calculate">
+				<input class="user-input" id="a" type="number">
+				<input class="user-input" id="b" type="number"><br>
+				<input type="reset" value="Очистити">
+			</form>
+			<h3>Результат</h3>
+			<div class="results">
+				<p>Cума</p>
+				<div class="result" name="result" id="result1"></div>
+				<p>Добуток</p>
+				<div class="result" name="result" id="result2"></div>
+			</div>
+		</div>
+	</section>
+
+	<script src="/js/student.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Редактору</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/64ed6564b5.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/css/editor.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<nav class="navigation">
+				<a href="/index.html" class="logo"><i class="fa-solid fa-user"></i> IVAN KYRLAN</a>
+				<div class="myinfo" id="myinfo">
+					<img src="/MyPhoto.jpg" width="250px" height="250px" style="border-radius: 30px;">
+					<h2>Кирлан Іван</h2>
+					<p>Студент 2 курсу<br>Системний аналіз<br>207 група</p>
+				</div>
+				<ul class="nav-list">
+					<li><a href="/pages/student.html"><i class="fa-solid fa-graduation-cap"></i> Школяреві</a>
+					</li>
+					<li><a href="/pages/financier.html"><i class="fa-solid fa-money-check-dollar"></i> Фінансисту</a>
+					</li>
+					<li><a href="/pages/editor.html"><i class="fa-solid fa-file-lines"></i> Редактору</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="task-editor">
+		<div class="container">
+			<h2>Заміна першої букви кожного слова на прописну</h2>
+			<h3>Уведіть текст</h3>
+			<textarea class="user-input" id="text"></textarea>
+			<button class="btn" id="btn">Замінити</button>
+			<h3 id="text-result"></h3>
+		</div>
+	</section>
+
+	<script src="/js/editor.js"></script>
+</body>
+
+</html>
