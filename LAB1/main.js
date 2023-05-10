@@ -1,12 +1,12 @@
 //Logo Info
-var mylogo = document.querySelector(".logo");
-var myinfo = document.querySelector(".myinfo");
+let mylogo = document.querySelector(".logo");
+let myinfo = document.querySelector(".myinfo");
 
 mylogo.addEventListener("mouseover", showPopup);
 mylogo.addEventListener("mouseout", hidePopup);
 
 function showPopup(evt) {
-	var iconPos = mylogo.getBoundingClientRect();
+	let iconPos = mylogo.getBoundingClientRect();
 	myinfo.style.left = (iconPos.right - 280) + "px";
 	myinfo.style.top = (window.scrollY + iconPos.top + 100) + "px";
 	myinfo.style.display = "block";
